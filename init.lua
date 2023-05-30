@@ -52,9 +52,9 @@ require('packer').startup(function(use)
 
   use 'navarasu/onedark.nvim' -- Theme inspired by Atom
   use 'nvim-lualine/lualine.nvim' -- Fancier statusline
-  use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
+  -- use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
   use 'numToStr/Comment.nvim' -- "gc" to comment visual regions/lines
-  use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
+  -- use 'tpope/vim-sleuth' -- Detect tabstop and shiftwidth automatically
 
   -- Fuzzy Finder (files, lsp, etc)
   use { 'nvim-telescope/telescope.nvim', branch = '0.1.x', requires = { 'nvim-lua/plenary.nvim' } }
@@ -122,7 +122,7 @@ vim.wo.signcolumn = 'yes'
 
 -- Set colorscheme
 vim.o.termguicolors = true
-vim.cmd [[colorscheme onedark]]
+vim.cmd [[colorscheme tokyonight]]
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
@@ -427,4 +427,4 @@ cmp.setup {
 }
 
 -- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et
+-- vim: ts=4 sts=4 sw=2

@@ -17,7 +17,7 @@ set wildmenu
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set expandtab
+" set expandtab
 
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
@@ -39,6 +39,7 @@ call plug#begin()
     Plug 'ap/vim-css-color'
     Plug 'preservim/nerdtree'
     Plug 'OmniSharp/omnisharp-vim'
+    Plug 'folke/tokyonight.nvim'
     " Plug 'preservim/tagbar'
     " Plug 'glepnir/dashboard-nvim'
     " Plug 'junegunn/fzf'
